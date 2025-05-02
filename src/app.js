@@ -9,7 +9,7 @@ import galleryRoutes from './routes/galery.routes.js';
 const app = express();
 
 app.use(cors({
-    origin: ['https://jeim-music.vercel.app', 'https://captaingroup.online/'],
+    origin: ['https://jeim-music.vercel.app', 'https://captaingroup.online/', 'https://djboard.vercel.app/'],
     credentials: true,
     
 }));
